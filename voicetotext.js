@@ -18,7 +18,7 @@
  */
 
 var langs = [
-		['Hindi',	['hi-IN']],
+		
 		['English', ['en-AU', 'Australia'],
 					['en-CA', 'Canada'],
 					['en-IN', 'India'],
@@ -27,12 +27,28 @@ var langs = [
 					['en-GB', 'United Kingdom'],
 					['en-US', 'United States'],
 		],
+		['Arabic', ['ar-001', 'World'],
+					['ar-SY', 'Syria'],
+					['ar-TN', 'Tunisia'],
+					['ar-AE', 'United Arab Emirates'],
+					['ar-YE', 'Yemen'],
+					['ar-DZ', 'Algeria'],
+					['ar-MA', 'Morocco'],
+					
+		]
 		['France', ['fr-FR', 'France']],
-		['Arabic', ['ar-MA', 'Arabic']]
+		['Spain', ['es-ES', 'Spanish'],
+					['gl-ES', 'Galician'],
+					['en-ES', 'English'],
+					['ca-ES', 'Catalan'],
+					['eu-ES', 'Basque'],
+					['ast-ES', 'Asturian'],
+					
+		],
+		['Hindi',	['hi-IN']],
 		
 		
 	];
-	
 	for (var i = 0; i < langs.length; i++) {
 	  select_language.options[i] = new Option(langs[i][0], i);
 	}
