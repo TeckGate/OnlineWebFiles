@@ -35,7 +35,7 @@ var langs = [
 					['ar-DZ', 'Algeria'],
 					['ar-MA', 'Morocco'],
 					
-		]
+		],
 		['France', ['fr-FR', 'France']],
 		['Spain', ['es-ES', 'Spanish'],
 					['gl-ES', 'Galician'],
