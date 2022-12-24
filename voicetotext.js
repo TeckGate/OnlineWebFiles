@@ -1,18 +1,15 @@
 ﻿/*!
  * Original Credits of version v1.0.0:
  *
- * NOTE: Technical Arp is not original developer of script.
+ * NOTE: voice-text-tool.blogspot.com is not original developer of script.
  * If your are developer this script v1.0.0 then please message/contact us for proper credits. We will be happy to give proper credits.
  */
  
 /*!
  * Updated Script!
  * Voice to Text Note Maker v2.1.0
- *
- * For more information visit: https://www.technicalarp.com/
- * NOTE: Installation and usage are posted on our website, kindly visit website and search for Voice to Text Script.
- *
- * Copyright (c) 2021 www.technicalarp.com
+
+ * voice-text-tool.blogspot.com
  * Released under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
  * Use with proper credits.
  */
@@ -37,7 +34,7 @@ var langs = [
 					
 		],
 		['France', ['fr-FR', 'France']],
-		['Spain', ['es-ES', 'Spanish'],
+		['Spanish', ['es-ES', 'Spain'],
 					['gl-ES', 'Galician'],
 					['en-ES', 'English'],
 					['ca-ES', 'Catalan'],
@@ -45,6 +42,9 @@ var langs = [
 					['ast-ES', 'Asturian'],
 					
 		],
+	['Chinese', ['zh-CN', 'China mainland']],
+	['Japanese', ['ja-JP', 'Japan']],
+	['Germany', ['de-DE', 'German']],
 		['Hindi',	['hi-IN']],
 		
 		
